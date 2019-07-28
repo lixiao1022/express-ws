@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>websocket</title>
+    <style>
+        .show {
+            display: block;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="wsWrap" class="show">
+        用户ID：<input id="id" type="text">
+
+        <button id="login">websocket</button>
+    </div>
+
+    <div id="msgWrap" class="hide">
+        <div>
+            我的ID：<span id="fromId"></span>
+        </div>
+        <hr>
+        <div>
+            对方ID：<input id="sendId" type="text">
+        </div>
+        <div>
+            消息类型：<input id="sendType" type="text">
+        </div>
+        <div>
+            消息内容：<input id="sendMsg" type="text">
+        </div>
+        <div>
+            <button id="send">发送</button>
+        </div>
+
+        <hr>
+
+        <div>
+            收到的消息：
+            <span id="messgae"></span>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
