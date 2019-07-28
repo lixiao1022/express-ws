@@ -1,0 +1,11 @@
+{
+  "name": "express-ws-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lixiao564/express-ws.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0"
+  }
+}
